@@ -9,5 +9,9 @@ public class TestHello {
         int result = 5 + 1 * 2;
         assertEquals(result, 7);
     }
-
+    @Test
+    public void testFoo2() {
+        int result = 5;
+        assertEquals(result, 5);
+    }
 }
